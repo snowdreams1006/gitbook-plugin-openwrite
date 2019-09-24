@@ -1,0 +1,53 @@
+{
+  "name": "gitbook-plugin-openwrite",
+  "main": "index.js",
+  "version": "0.0.1",
+  "description": "openwrite is a gitbook plugin that unlocking blob by wechat",
+  "engines": {
+    "gitbook": ">=2.4.3"
+  },
+  "gitbook": {
+    "properties": {
+      "blogId": {
+        "type": "string",
+        "required": true,
+        "description": "Openwrite blogId."
+      },
+      "name": {
+        "type": "string",
+        "required": true,
+        "description": "Blog name."
+      },
+      "qrcode": {
+        "type": "string",
+        "required": true,
+        "description": "Wechat qrcode."
+      },
+      "keyword": {
+        "type": "string",
+        "required": true,
+        "description": "Wechat keyword."
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowdreams1006/gitbook-plugin-openwrite.git"
+  },
+  "keywords": [
+    "gitbook-plugin-openwrite",
+    "openwrite",
+    "wechat",
+    "github",
+    "gitbook"
+  ],
+  "author": {
+    "name": "snowdreams1006",
+    "email": "snowdreams1006@163.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/snowdreams1006/gitbook-plugin-openwrite/issues"
+  },
+  "homepage": "https://snowdreams1006.github.io/gitbook-plugin-openwrite/"
+}
