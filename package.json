@@ -1,7 +1,7 @@
 {
   "name": "gitbook-plugin-openwrite",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "openwrite is a gitbook plugin that unlocking blob by wechat",
   "engines": {
     "gitbook": ">=2.4.3"
