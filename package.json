@@ -8,6 +8,12 @@
   },
   "gitbook": {
     "properties": {
+      "supportMobile": {
+        "type": "boolean",
+        "required": false,
+        "default":false,
+        "description": "Openwrite support on mobile."
+      },
       "blogId": {
         "type": "string",
         "required": true,
