@@ -1,19 +1,13 @@
 {
   "name": "gitbook-plugin-openwrite",
   "main": "index.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "openwrite is a gitbook plugin that unlocking blob by wechat",
   "engines": {
     "gitbook": ">=2.4.3"
   },
   "gitbook": {
     "properties": {
-      "supportMobile": {
-        "type": "boolean",
-        "required": false,
-        "default":false,
-        "description": "Openwrite support on mobile."
-      },
       "blogId": {
         "type": "string",
         "required": true,
