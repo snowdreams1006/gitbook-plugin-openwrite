@@ -10,11 +10,28 @@
         }
     },
     "plugins": [
+        "favicon-custom",
+        "github-buttons",
+        "edit-link",
         "openwrite",
         "copyright",
         "mygitalk"
     ],
     "pluginsConfig": {
+        "favicon": "favicon.ico",
+        "appleTouchIconPrecomposed152": "apple-touch-icon-precomposed-152.png",
+        "github-buttons": {
+            "buttons": [{
+                "user": "snowdreams1006",
+                "repo": "gitbook-plugin-openwrite",
+                "type": "star",
+                "size": "small"
+            }]
+        },
+        "edit-link": {
+            "base": "https://github.com/snowdreams1006/gitbook-plugin-openwrite/blob/master",
+            "label": "编辑本页"
+        },
         "openwrite": {
             "blogId": "15702-1569305559839-744",
             "name": "雪之梦技术驿站",
