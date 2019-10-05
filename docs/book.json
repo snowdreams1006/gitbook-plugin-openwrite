@@ -30,7 +30,7 @@
         },
         "edit-link": {
             "base": "https://github.com/snowdreams1006/gitbook-plugin-openwrite/blob/master",
-            "label": "编辑本页"
+            "label": "Edit This Page"
         },
         "openwrite": {
             "blogId": "15702-1569305559839-744",
